@@ -11,7 +11,7 @@ export class MoviesController {
     }
 
     @Get()
-    getAll(){
+    getAll() : Movie[]{
         return this.moviesService.getAll();
     }
 
